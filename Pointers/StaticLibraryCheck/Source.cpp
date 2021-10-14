@@ -1,7 +1,7 @@
 #include<iostream>
+//$(SolutionDir)\include;
 #include"Array.h"
 #include"Memory.h"
-
 using namespace std;
 
 void main()

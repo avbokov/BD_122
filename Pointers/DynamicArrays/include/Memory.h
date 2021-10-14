@@ -1,4 +1,5 @@
 #pragma once
+
 int** allocate(const int rows, const int cols);
 void  clear(int** arr, const int rows);
 
