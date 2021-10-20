@@ -3,15 +3,19 @@
 using namespace std;
 
 #include"FillRand.h"
+//#include"FillRand.cpp"
 #include"Print.h"
+//#include"Print.cpp"
 #include"Memory.h"
-
+//#include"Memory.cpp"
 
 #define delimiter "\n------------------------------------------------\n"
 
 //#define DYNAMIC_MEMORY_1
 #define DYNAMIC_MEMORY_2
+//#define MAIN
 
+#ifdef MAIN
 void main()
 {
 	//Stack
@@ -45,7 +49,7 @@ void main()
 	int cols;	//Количество элементов строки
 	cout << "Введите количество строк: "; cin >> rows;
 	cout << "Введите количество элементов строки: "; cin >> cols;
-	
+
 	char** arr = allocate<char>(rows, cols);
 
 	//////////////////////////////////////////////////////////////////////////////////
@@ -64,12 +68,14 @@ void main()
 	Print(arr, rows, cols);
 	cout << "Добавление столбца в конец:\n";
 	push_col_back(arr, rows, cols);
-	for (int i = 0; i < rows; i++)arr[i][cols - 1]=rand();
+	for (int i = 0; i < rows; i++)arr[i][cols - 1] = rand();
 	Print(arr, rows, cols);
 	cout << "Удавление столбца с конца:\n";
 	pop_col_back(arr, rows, cols);
 	Print(arr, rows, cols);
-	
+
 	clear(arr, rows);
 }
 
+
+#endif // MAIN

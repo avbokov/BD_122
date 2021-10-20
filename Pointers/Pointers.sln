@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1082
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointers", "Pointers\Pointers.vcxproj", "{A8A1B649-6EA8-4414-A09B-D22C3C38D0E4}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicArrays", "DynamicArrays\DynamicArrays.vcxproj", "{D3DB09A3-126B-4A16-9689-766307A334F8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EvenOdd", "EvenOdd\EvenOdd.vcxproj", "{CF5C4AA2-8A19-474B-A7A0-C57727FB3581}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplatedLibraryCheck", "TemplatedLibraryCheck\TemplatedLibraryCheck.vcxproj", "{60A2F991-2935-447D-80B8-786A26EA1EE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,14 @@ Global
 		{CF5C4AA2-8A19-474B-A7A0-C57727FB3581}.Release|x64.Build.0 = Release|x64
 		{CF5C4AA2-8A19-474B-A7A0-C57727FB3581}.Release|x86.ActiveCfg = Release|Win32
 		{CF5C4AA2-8A19-474B-A7A0-C57727FB3581}.Release|x86.Build.0 = Release|Win32
+		{60A2F991-2935-447D-80B8-786A26EA1EE3}.Debug|x64.ActiveCfg = Debug|x64
+		{60A2F991-2935-447D-80B8-786A26EA1EE3}.Debug|x64.Build.0 = Debug|x64
+		{60A2F991-2935-447D-80B8-786A26EA1EE3}.Debug|x86.ActiveCfg = Debug|Win32
+		{60A2F991-2935-447D-80B8-786A26EA1EE3}.Debug|x86.Build.0 = Debug|Win32
+		{60A2F991-2935-447D-80B8-786A26EA1EE3}.Release|x64.ActiveCfg = Release|x64
+		{60A2F991-2935-447D-80B8-786A26EA1EE3}.Release|x64.Build.0 = Release|x64
+		{60A2F991-2935-447D-80B8-786A26EA1EE3}.Release|x86.ActiveCfg = Release|Win32
+		{60A2F991-2935-447D-80B8-786A26EA1EE3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
